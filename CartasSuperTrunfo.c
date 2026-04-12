@@ -6,6 +6,14 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
+  // As varáveis são declaradas e inicializadas
+char  estado="A";
+char  codigo[]="01";
+char  cidade[]="belem";
+int   populacao=1;
+float area=1.0;
+float pib=1.0;
+int   ponto_tur=1;
 
   // Área para entrada de dados
 

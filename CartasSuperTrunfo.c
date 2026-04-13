@@ -27,6 +27,27 @@ int main()
   // Cadastrar o código da carta:
   printf("Digite um código entre 01 e 04 para identificar a carta: \n");
   scanf("%s", codigo);
+
+  // Cadastrar o nome da cidade:
+  printf("Digite o nome da cidade escolhida dentro do estado selecionado acima: \n");
+  scanf("%s", cidade);
+
+  // Cadastrar o numero da população:
+  printf("Digite o numero que representa a população da cidade: \n");
+  scanf("%d", &populacao);
+
+  // Cadastrar a área da cidade:
+  printf("Digite o tamanho da cidade em km2 (duas casas decimas separadas por . ): \n");
+  scanf("%f", &area);
+
+  // Cadastrar o PIB da cidade:
+  printf("Digite o valor do PIB da cidade (duas casas decimas separadas por . ): \n");
+  scanf("%f", &pib);
+
+  // Cadastrar o numero de pontos turisticos:
+  printf("Digite o numero de pontos turísticos da cidade escolhida: \n");
+  scanf("%d", &ponto_tur);
+
   // Área para exibição dos dados da cidade
 
   return 0;

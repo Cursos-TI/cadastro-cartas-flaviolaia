@@ -37,11 +37,11 @@ int main()
   scanf("%d", &populacao);
 
   // Cadastrar a área da cidade:
-  printf("Digite o tamanho da cidade em km2 (duas casas decimas separadas por . ): \n");
+  printf("Digite o tamanho da cidade em km2: \n");
   scanf("%f", &area);
 
   // Cadastrar o PIB da cidade:
-  printf("Digite o valor do PIB da cidade (duas casas decimas separadas por . ): \n");
+  printf("Digite o valor do PIB da cidade: \n");
   scanf("%f", &pib);
 
   // Cadastrar o numero de pontos turisticos:

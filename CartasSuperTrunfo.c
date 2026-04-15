@@ -17,7 +17,7 @@ int main()
   int ponto_tur = 1;
 
   // Área para entrada de dados
-  printf("Bem Vindo ao programa Super Trunfo de Países.\n");
+  printf("== Bem Vindo ao programa Super Trunfo de Países ==\n");
   printf("Nessa parte do programa vamos cadastrar as cartas. Vamos lá!\n\n");
 
   // Cadastrar o estado:

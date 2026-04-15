@@ -51,13 +51,13 @@ int main()
   // Área para exibição dos dados da cidade
   // Exibir os dados das cartas cadastrada
   printf("\n\nA carta cadastrada é: %c%s\n", estado, codigo);
-  printf("Estado: %c\n", estado);
-  printf("Código: %s\n", codigo);
-  printf("Cidade: %s\n", cidade);
-  printf("População: %d\n", populacao);
-  printf("Área: %.2f km2\n", area);
-  printf("PIB: %.2f\n", pib);
-  printf("Pontos Turísticos: %d\n", ponto_tur);
+  printf("Código do estado: %c\n", estado);
+  printf("Código da carta: %s\n", codigo);
+  printf("Nome da cidade: %s\n", cidade);
+  printf("Número da População: %d\n", populacao);
+  printf("Área da cidade: %.2f km2\n", area);
+  printf("PIB da cidade: %.2f\n", pib);
+  printf("Pontos Turísticos: %d\n\n", ponto_tur);
 
   return 0;
 }

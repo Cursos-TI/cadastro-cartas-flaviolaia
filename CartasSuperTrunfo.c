@@ -8,13 +8,9 @@ int main()
 {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   // As varáveis são declaradas e inicializadas
-  char estado = 'A';
-  char codigo[3] = "01";
-  char cidade[50] = "belem";
-  int populacao = 1;
-  float area = 1.0;
-  float pib = 1.0;
-  int ponto_tur = 1;
+  char estado = 'A', codigo[3] = "01", cidade[50] = "belem";
+  int populacao = 1, ponto_tur = 1;
+  float area = 1.0, pib = 1.0;
 
   // Área para entrada de dados
   printf("== Bem Vindo ao programa Super Trunfo de Países ==\n");
